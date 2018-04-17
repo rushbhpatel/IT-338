@@ -1,0 +1,28 @@
+      1  sudo apt update
+      2  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5
+      3  echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.6 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.6.list
+      4  sudo apt-get update
+      5  sudo apt install apt-transport -https
+      6  sudo apt install apt-transport-https
+      7  sudo apt-get update
+      8  sudo apt-get install -y mongodb-org
+      9  sudo service mongod start
+     10  sudo service mongod restart
+     11  cat /var/log/mongodb/mongod.log
+     12  curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+     13  sudo apt-get install -y nodejs
+     14  node --version
+     15  npm --version
+     16  mkdir myexpress
+     17  cd myexpress
+     18  npm init
+     19  ls -all
+     20  npm install express --save
+     21  cat package.jason
+     22  cat package.json
+     23  tougch index.js
+     24  touch.index.js
+     25  touch index.js
+     26  node index.js
+     27  history
+     28  history > vmsetup.txt
